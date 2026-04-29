@@ -1,0 +1,14 @@
+# Jarvis dependencies — pinned to versions that play nicely on macOS (Apple Silicon + Intel)
+
+# Audio I/O
+sounddevice==0.4.6
+numpy>=1.24,<2.1
+
+# Wake word detection (uses tflite-runtime under the hood; openwakeword installs it)
+openwakeword==0.6.0
+
+# Speech-to-text (CTranslate2 backend; CPU int8 is fast on M-series)
+faster-whisper==1.0.3
+
+# LLM client
+ollama==0.3.3

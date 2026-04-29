@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+.pytest_cache/
+*.egg-info/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+
+# Model caches (these get downloaded on first run)
+*.tflite
+*.onnx
+.cache/
+models/
+
+# JarvisWorkspace contents (the user's generated files shouldn't ship)
+JarvisWorkspace/
+
+# Logs
+*.log
+/tmp/ollama.log
